@@ -8,6 +8,7 @@ tap "homebrew/bundle"
 # Cask Dependencies
 brew "mas"
 brew "pkg-config"
+cask "java"
 
 # Shells
 brew "bash"
@@ -16,6 +17,7 @@ brew "zsh-completions"
 
 # CLI Utilities
 brew "coreutils"
+brew "curl", args: ["with-nghttp2"]
 brew "git"
 brew "grep"
 brew "tree"
@@ -25,10 +27,14 @@ brew "wget"
 brew "mackup"
 brew "trash"
 
+# Other Tools
+brew "imagemagick", args: ["with-fftw", "with-hdri", "with-liblqr", "with-librsvg", "with-opencl", "with-openmp", "with-webp"]
+
 # Development
-brew "imagemagick"
 brew "go"
+brew "pyenv"
 brew "node"
+brew "yarn"
 brew "php"
 
 # Apps
@@ -37,12 +43,12 @@ cask "adobe-creative-cloud"
 cask "alfred"
 cask "caffeine"
 cask "docker"
+cask "dropbox"
 cask "droplr"
 cask "eid-pt"
 cask "google-cloud-sdk"
 cask "grammarly"
 cask "iterm2"
-cask "java"
 cask "now"
 cask "postbox"
 cask "postman"
@@ -50,6 +56,7 @@ cask "sequel-pro"
 cask "slack"
 cask "tableplus"
 cask "tower"
+cask "vanilla"
 cask "vlc"
 cask "visual-studio-code"
 
