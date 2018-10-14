@@ -15,8 +15,9 @@ INSTALLERS=(
   # xcode
   homebrew
   shell
-  # mackup
+  node
   development
+  # mackup
   # macos-preferences
 )
 

@@ -10,9 +10,6 @@ mv composer.phar /usr/local/bin/composer
 # Install global Composer packages
 /usr/local/bin/composer global require laravel/valet localheinz/composer-normalize sensiolabs/security-checker
 
-# Install global NPM packages
-/usr/local/bin/npm install --global @vue/cli vuepress
-
 # Install Laravel Valet
 $HOME/.composer/vendor/bin/valet install
 
