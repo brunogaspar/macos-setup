@@ -26,7 +26,6 @@ brew "mackup"
 brew "trash"
 
 # Development
-brew "imagick"
 brew "go"
 brew "node"
 brew "php"
