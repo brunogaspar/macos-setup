@@ -14,9 +14,10 @@ sudo softwareupdate -ia --verbose
 INSTALLERS=(
   # xcode
   homebrew
-  shell
   node
+  composer
   development
+  shell
   # mackup
   # macos-preferences
 )

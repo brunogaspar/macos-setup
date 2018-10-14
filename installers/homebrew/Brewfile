@@ -32,10 +32,10 @@ brew "imagemagick", args: ["with-fftw", "with-hdri", "with-liblqr", "with-librsv
 
 # Development
 brew "go"
+brew "php"
 brew "pyenv"
 brew "node"
 brew "yarn"
-brew "php"
 
 # Apps
 cask "1password"
