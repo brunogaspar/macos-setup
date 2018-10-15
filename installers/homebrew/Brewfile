@@ -28,7 +28,9 @@ brew "mackup"
 brew "trash"
 
 # Other Tools
-brew "imagemagick", args: ["with-fftw", "with-hdri", "with-liblqr", "with-librsvg", "with-opencl", "with-openmp", "with-webp"]
+# Disabled until https://github.com/Homebrew/homebrew-core/issues/32673 is resolved
+# brew "imagemagick", args: ["with-fftw", "with-hdri", "with-liblqr", "with-librsvg", "with-opencl", "with-openmp", "with-webp"]
+brew "imagemagick"
 
 # Development
 brew "composer"
