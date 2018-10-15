@@ -31,6 +31,7 @@ brew "trash"
 brew "imagemagick", args: ["with-fftw", "with-hdri", "with-liblqr", "with-librsvg", "with-opencl", "with-openmp", "with-webp"]
 
 # Development
+brew "composer"
 brew "go"
 brew "php"
 brew "pyenv"

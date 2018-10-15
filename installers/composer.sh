@@ -1,8 +1,5 @@
 #!/usr/bin/env bash
 
-# Update Composer
-composer self-update
-
 # Composer Packages to Install
 packages=(
     laravel/valet
