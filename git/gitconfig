@@ -1,0 +1,5 @@
+[user]
+        name = Bruno Gaspar
+        email = brunofgaspar1@gmail.com
+[core]
+        excludesfile = ~/.gitignore

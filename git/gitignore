@@ -1,0 +1,7 @@
+*.log
+*.sql
+*.sqlite
+.DS_Store
+.Trashes
+.vscode
+npm-debug.log
