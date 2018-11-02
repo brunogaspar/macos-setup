@@ -12,7 +12,6 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 sudo softwareupdate -ia --verbose
 
 INSTALLERS=(
-  # xcode
   homebrew
   node
   composer
