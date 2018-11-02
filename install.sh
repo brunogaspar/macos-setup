@@ -17,7 +17,7 @@ INSTALLERS=(
   composer
   development
   shell
-  # mackup
+  mackup
   # macos-preferences
 )
 
