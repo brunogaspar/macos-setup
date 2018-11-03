@@ -84,5 +84,5 @@ cask "font-source-sans-pro"
 cask "font-source-serif-pro"
 
 # MAS Applications
-mas "Bear", id: 1091189122
-mas "Clocker", id: 1056643111
+# mas "Bear", id: 1091189122
+# mas "Clocker", id: 1056643111
