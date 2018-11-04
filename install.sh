@@ -16,9 +16,9 @@ INSTALLERS=(
   node
   composer
   development
-  shell
-  # mackup
+  mackup
   # macos-preferences
+  shell
 )
 
 # Sources all the preference files
