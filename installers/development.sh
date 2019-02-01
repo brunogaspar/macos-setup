@@ -11,4 +11,4 @@ pecl install yaml
 $HOME/.composer/vendor/bin/valet install
 
 # Update the Laravel Valet default domain
-$HOME/.composer/vendor/bin/valet domain app
+$HOME/.composer/vendor/bin/valet domain test
